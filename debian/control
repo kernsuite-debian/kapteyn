@@ -2,7 +2,7 @@ Source: kapteyn
 Section: python
 Priority: optional
 Maintainer: KERN packaging <packaging@kernsuite.info>
-Build-Depends: debhelper (>=9), dh-python, python-all, python-numpy
+Build-Depends: debhelper (>=9), dh-python, python-all, python-numpy, python-dev
 Standards-Version: 3.9.8
 Homepage: https://www.astro.rug.nl/software/kapteyn/
 X-Python-Version: >= 2.6
