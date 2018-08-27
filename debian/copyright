@@ -1,0 +1,1573 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kapteyn
+Source: https://www.astro.rug.nl/software/kapteyn/
+
+Files:     debian/*
+Copyright: Gijs Molenaar <gijs@pythonic.nl>
+License:   MIT
+
+Files:     CHANGES.txt
+           INSTALL.txt
+           MANIFEST.in
+           README.txt
+           doc/notes.txt
+           kapteyn.bib
+           kapteyn/__init__.py
+           kapteyn/__init__.pyc
+           kapteyn/doccer.py
+           kapteyn/lut/aips.lut
+           kapteyn/lut/alex.lut
+           kapteyn/lut/backgr.lut
+           kapteyn/lut/blue.lut
+           kapteyn/lut/blulut.lut
+           kapteyn/lut/bw.lut
+           kapteyn/lut/color.lut
+           kapteyn/lut/flag.lut
+           kapteyn/lut/green.lut
+           kapteyn/lut/halley.lut
+           kapteyn/lut/heat.lut
+           kapteyn/lut/idl11.lut
+           kapteyn/lut/idl12.lut
+           kapteyn/lut/idl14.lut
+           kapteyn/lut/idl15.lut
+           kapteyn/lut/idl2.lut
+           kapteyn/lut/idl4.lut
+           kapteyn/lut/idl5.lut
+           kapteyn/lut/idl6.lut
+           kapteyn/lut/ikon.lut
+           kapteyn/lut/isophot.lut
+           kapteyn/lut/kester.lut
+           kapteyn/lut/light.lut
+           kapteyn/lut/lnspiral.lut
+           kapteyn/lut/manycol.lut
+           kapteyn/lut/mousse.lut
+           kapteyn/lut/pastel.lut
+           kapteyn/lut/pseudo1.lut
+           kapteyn/lut/pseudo2.lut
+           kapteyn/lut/rainbow.lut
+           kapteyn/lut/rainbow1.lut
+           kapteyn/lut/rainbow2.lut
+           kapteyn/lut/rainbow3.lut
+           kapteyn/lut/rainbow4.lut
+           kapteyn/lut/rainbow5.lut
+           kapteyn/lut/ramp.lut
+           kapteyn/lut/random.lut
+           kapteyn/lut/random1.lut
+           kapteyn/lut/random2.lut
+           kapteyn/lut/random3.lut
+           kapteyn/lut/random4.lut
+           kapteyn/lut/real.lut
+           kapteyn/lut/red.lut
+           kapteyn/lut/ronekers.lut
+           kapteyn/lut/smooth.lut
+           kapteyn/lut/staircase.lut
+           kapteyn/lut/stairs8.lut
+           kapteyn/lut/stairs9.lut
+           kapteyn/lut/standard.lut
+           kapteyn/lut/sunbow.lut
+           kapteyn/lut/sunbow2.lut
+           kapteyn/maputils.py
+           kapteyn/mplutil.py
+           kapteyn/wcsgrat.py
+           setup.py
+           src/README-wcslib.txt
+           src/ascarray.c
+           src/ascarray.make
+           src/ascarray.pyx
+           src/c_numpy.pxd
+           src/c_wcs.pxd
+           src/eterms.c
+           src/eterms.h
+           src/incdir.py
+           src/kmpfit.c
+           src/kmpfit.pxd
+           src/kmpfit.pyx
+           src/mpfit.c
+           src/mpfit.h
+           src/profiles.c
+           src/profiles.pyx
+           src/wcs.make
+           src/wcs.pyx
+           src/wcsconfig.h
+           src/wcslib-4.24/C/GNUmakefile
+           src/wcslib-4.24/C/flexed/README
+           src/wcslib-4.24/C/test/tbth1.out
+           src/wcslib-4.24/C/test/tfitshdr.out
+           src/wcslib-4.24/C/test/tpih1.out
+           src/wcslib-4.24/C/test/tunits.out
+           src/wcslib-4.24/C/test/twcsfix.out
+           src/wcslib-4.24/C/test/twcssub.out
+           src/wcslib-4.24/C/test/twcstab.out
+           src/wcslib-4.24/C/test/units_test
+           src/wcslib-4.24/CHANGES
+           src/wcslib-4.24/Fortran/GNUmakefile
+           src/wcslib-4.24/Fortran/cel.inc
+           src/wcslib-4.24/Fortran/cel_data.f
+           src/wcslib-4.24/Fortran/fitshdr.inc
+           src/wcslib-4.24/Fortran/fitshdr_data.f
+           src/wcslib-4.24/Fortran/getwcstab.inc
+           src/wcslib-4.24/Fortran/lin.inc
+           src/wcslib-4.24/Fortran/lin_data.f
+           src/wcslib-4.24/Fortran/log.inc
+           src/wcslib-4.24/Fortran/log_data.f
+           src/wcslib-4.24/Fortran/prj.inc
+           src/wcslib-4.24/Fortran/prj_data.f
+           src/wcslib-4.24/Fortran/spc.inc
+           src/wcslib-4.24/Fortran/spc_data.f
+           src/wcslib-4.24/Fortran/sph.inc
+           src/wcslib-4.24/Fortran/spx.inc
+           src/wcslib-4.24/Fortran/spx_data.f
+           src/wcslib-4.24/Fortran/tab.inc
+           src/wcslib-4.24/Fortran/tab_data.f
+           src/wcslib-4.24/Fortran/test/tcel1.f
+           src/wcslib-4.24/Fortran/test/tfitshdr.f
+           src/wcslib-4.24/Fortran/test/tfitshdr.out
+           src/wcslib-4.24/Fortran/test/tlin.f
+           src/wcslib-4.24/Fortran/test/tlog.f
+           src/wcslib-4.24/Fortran/test/tpih1.f
+           src/wcslib-4.24/Fortran/test/tpih1.out
+           src/wcslib-4.24/Fortran/test/tpih2.f
+           src/wcslib-4.24/Fortran/test/tprj1.f
+           src/wcslib-4.24/Fortran/test/tprj2.f
+           src/wcslib-4.24/Fortran/test/tspc.f
+           src/wcslib-4.24/Fortran/test/tsph.f
+           src/wcslib-4.24/Fortran/test/tspx.f
+           src/wcslib-4.24/Fortran/test/ttab1.f
+           src/wcslib-4.24/Fortran/test/ttab2.f
+           src/wcslib-4.24/Fortran/test/ttab3.f
+           src/wcslib-4.24/Fortran/test/tunits.f
+           src/wcslib-4.24/Fortran/test/tunits.out
+           src/wcslib-4.24/Fortran/test/twcs.f
+           src/wcslib-4.24/Fortran/test/twcsfix.f
+           src/wcslib-4.24/Fortran/test/twcsfix.out
+           src/wcslib-4.24/Fortran/test/twcsmix.f
+           src/wcslib-4.24/Fortran/test/twcssub.f
+           src/wcslib-4.24/Fortran/test/twcssub.out
+           src/wcslib-4.24/Fortran/test/twcstab.f
+           src/wcslib-4.24/Fortran/test/twcstab.out
+           src/wcslib-4.24/Fortran/wcs.inc
+           src/wcslib-4.24/Fortran/wcs_data.f
+           src/wcslib-4.24/Fortran/wcserr.inc
+           src/wcslib-4.24/Fortran/wcsfix.inc
+           src/wcslib-4.24/Fortran/wcsfix_data.f
+           src/wcslib-4.24/Fortran/wcshdr.inc
+           src/wcslib-4.24/Fortran/wcshdr_data.f
+           src/wcslib-4.24/Fortran/wcsmath.inc
+           src/wcslib-4.24/Fortran/wcsunits.inc
+           src/wcslib-4.24/Fortran/wcsunits_data.f
+           src/wcslib-4.24/GNUmakefile
+           src/wcslib-4.24/INSTALL
+           src/wcslib-4.24/THANKS
+           src/wcslib-4.24/VALIDATION
+           src/wcslib-4.24/config/mkinstalldirs
+           src/wcslib-4.24/config/move-if-change
+           src/wcslib-4.24/configure.ac
+           src/wcslib-4.24/doxygen/Bonne.gif
+           src/wcslib-4.24/doxygen/Doxyfile
+           src/wcslib-4.24/doxygen/Doxyfile.bak
+           src/wcslib-4.24/doxygen/GNUmakefile
+           src/wcslib-4.24/doxygen/README
+           src/wcslib-4.24/doxygen/cel.sed
+           src/wcslib-4.24/doxygen/cel_extras.dox
+           src/wcslib-4.24/doxygen/doxextr.sed
+           src/wcslib-4.24/doxygen/fitshdr.sed
+           src/wcslib-4.24/doxygen/fitshdr_extras.dox
+           src/wcslib-4.24/doxygen/getwcstab.sed
+           src/wcslib-4.24/doxygen/lin.sed
+           src/wcslib-4.24/doxygen/lin_extras.dox
+           src/wcslib-4.24/doxygen/prj.sed
+           src/wcslib-4.24/doxygen/prj_extras.dox
+           src/wcslib-4.24/doxygen/spc.sed
+           src/wcslib-4.24/doxygen/spc_extras.dox
+           src/wcslib-4.24/doxygen/sph.sed
+           src/wcslib-4.24/doxygen/spx.sed
+           src/wcslib-4.24/doxygen/spx_extras.dox
+           src/wcslib-4.24/doxygen/tab.sed
+           src/wcslib-4.24/doxygen/tab_extras.dox
+           src/wcslib-4.24/doxygen/wcs.sed
+           src/wcslib-4.24/doxygen/wcs_extras.dox
+           src/wcslib-4.24/doxygen/wcserr.sed
+           src/wcslib-4.24/doxygen/wcsfix.sed
+           src/wcslib-4.24/doxygen/wcsfix_extras.dox
+           src/wcslib-4.24/doxygen/wcshdr.sed
+           src/wcslib-4.24/doxygen/wcshdr_extras.dox
+           src/wcslib-4.24/doxygen/wcsmath_extras.dox
+           src/wcslib-4.24/doxygen/wcstrig.sed
+           src/wcslib-4.24/doxygen/wcstrig_extras.dox
+           src/wcslib-4.24/doxygen/wcsunits.sed
+           src/wcslib-4.24/doxygen/wcsunits_extras.dox
+           src/wcslib-4.24/doxygen/wcsutil.sed
+           src/wcslib-4.24/flavours
+           src/wcslib-4.24/html/Bonne.gif
+           src/wcslib-4.24/html/bc_s.png
+           src/wcslib-4.24/html/bdwn.png
+           src/wcslib-4.24/html/closed.png
+           src/wcslib-4.24/html/doxygen.css
+           src/wcslib-4.24/html/doxygen.png
+           src/wcslib-4.24/html/dynsections.js
+           src/wcslib-4.24/html/form_0.png
+           src/wcslib-4.24/html/form_1.png
+           src/wcslib-4.24/html/form_10.png
+           src/wcslib-4.24/html/form_11.png
+           src/wcslib-4.24/html/form_12.png
+           src/wcslib-4.24/html/form_13.png
+           src/wcslib-4.24/html/form_14.png
+           src/wcslib-4.24/html/form_15.png
+           src/wcslib-4.24/html/form_16.png
+           src/wcslib-4.24/html/form_17.png
+           src/wcslib-4.24/html/form_18.png
+           src/wcslib-4.24/html/form_19.png
+           src/wcslib-4.24/html/form_2.png
+           src/wcslib-4.24/html/form_20.png
+           src/wcslib-4.24/html/form_21.png
+           src/wcslib-4.24/html/form_22.png
+           src/wcslib-4.24/html/form_23.png
+           src/wcslib-4.24/html/form_24.png
+           src/wcslib-4.24/html/form_25.png
+           src/wcslib-4.24/html/form_26.png
+           src/wcslib-4.24/html/form_27.png
+           src/wcslib-4.24/html/form_28.png
+           src/wcslib-4.24/html/form_29.png
+           src/wcslib-4.24/html/form_3.png
+           src/wcslib-4.24/html/form_30.png
+           src/wcslib-4.24/html/form_31.png
+           src/wcslib-4.24/html/form_32.png
+           src/wcslib-4.24/html/form_33.png
+           src/wcslib-4.24/html/form_34.png
+           src/wcslib-4.24/html/form_35.png
+           src/wcslib-4.24/html/form_36.png
+           src/wcslib-4.24/html/form_37.png
+           src/wcslib-4.24/html/form_38.png
+           src/wcslib-4.24/html/form_39.png
+           src/wcslib-4.24/html/form_4.png
+           src/wcslib-4.24/html/form_40.png
+           src/wcslib-4.24/html/form_41.png
+           src/wcslib-4.24/html/form_42.png
+           src/wcslib-4.24/html/form_43.png
+           src/wcslib-4.24/html/form_44.png
+           src/wcslib-4.24/html/form_45.png
+           src/wcslib-4.24/html/form_46.png
+           src/wcslib-4.24/html/form_47.png
+           src/wcslib-4.24/html/form_48.png
+           src/wcslib-4.24/html/form_49.png
+           src/wcslib-4.24/html/form_5.png
+           src/wcslib-4.24/html/form_50.png
+           src/wcslib-4.24/html/form_51.png
+           src/wcslib-4.24/html/form_52.png
+           src/wcslib-4.24/html/form_53.png
+           src/wcslib-4.24/html/form_54.png
+           src/wcslib-4.24/html/form_55.png
+           src/wcslib-4.24/html/form_56.png
+           src/wcslib-4.24/html/form_57.png
+           src/wcslib-4.24/html/form_58.png
+           src/wcslib-4.24/html/form_59.png
+           src/wcslib-4.24/html/form_6.png
+           src/wcslib-4.24/html/form_60.png
+           src/wcslib-4.24/html/form_61.png
+           src/wcslib-4.24/html/form_62.png
+           src/wcslib-4.24/html/form_63.png
+           src/wcslib-4.24/html/form_64.png
+           src/wcslib-4.24/html/form_65.png
+           src/wcslib-4.24/html/form_66.png
+           src/wcslib-4.24/html/form_67.png
+           src/wcslib-4.24/html/form_68.png
+           src/wcslib-4.24/html/form_69.png
+           src/wcslib-4.24/html/form_7.png
+           src/wcslib-4.24/html/form_70.png
+           src/wcslib-4.24/html/form_71.png
+           src/wcslib-4.24/html/form_72.png
+           src/wcslib-4.24/html/form_73.png
+           src/wcslib-4.24/html/form_74.png
+           src/wcslib-4.24/html/form_8.png
+           src/wcslib-4.24/html/form_9.png
+           src/wcslib-4.24/html/formula.repository
+           src/wcslib-4.24/html/ftv2blank.png
+           src/wcslib-4.24/html/ftv2doc.png
+           src/wcslib-4.24/html/ftv2folderclosed.png
+           src/wcslib-4.24/html/ftv2folderopen.png
+           src/wcslib-4.24/html/ftv2lastnode.png
+           src/wcslib-4.24/html/ftv2link.png
+           src/wcslib-4.24/html/ftv2mlastnode.png
+           src/wcslib-4.24/html/ftv2mnode.png
+           src/wcslib-4.24/html/ftv2node.png
+           src/wcslib-4.24/html/ftv2plastnode.png
+           src/wcslib-4.24/html/ftv2pnode.png
+           src/wcslib-4.24/html/ftv2splitbar.png
+           src/wcslib-4.24/html/ftv2vertline.png
+           src/wcslib-4.24/html/nav_f.png
+           src/wcslib-4.24/html/nav_g.png
+           src/wcslib-4.24/html/nav_h.png
+           src/wcslib-4.24/html/open.png
+           src/wcslib-4.24/html/sync_off.png
+           src/wcslib-4.24/html/sync_on.png
+           src/wcslib-4.24/html/tab_a.png
+           src/wcslib-4.24/html/tab_b.png
+           src/wcslib-4.24/html/tab_h.png
+           src/wcslib-4.24/html/tab_s.png
+           src/wcslib-4.24/html/tabs.css
+           src/wcslib-4.24/makedefs.in
+           src/wcslib-4.24/pgsbox/GNUmakefile
+           src/wcslib-4.24/pgsbox/fscan.f
+           src/wcslib-4.24/pgsbox/lngvel.f
+           src/wcslib-4.24/pgsbox/pgcrfn.f
+           src/wcslib-4.24/pgsbox/pgcrvl.f
+           src/wcslib-4.24/pgsbox/pgsbox.f
+           src/wcslib-4.24/pgsbox/pgtest.f
+           src/wcslib-4.24/utils/GNUmakefile
+           src/wcslib-4.24/utils/HPXcvt.1
+           src/wcslib-4.24/utils/fitshdr.1
+           src/wcslib-4.24/utils/wcsgrid.1
+           src/wcslib-4.24/utils/wcsware.1
+           src/wcslib-4.24/wcsconfig.h.in
+           src/wcslib-4.24/wcsconfig_f77.h.in
+           src/wcslib-4.24/wcsconfig_tests.h.in
+           src/wcslib-4.24/wcsconfig_utils.h.in
+           src/wcslib-4.24/wcslib.pc.in
+           src/wcslib-4.24/wcslib.pdf
+           src/xyz.c
+           src/xyz.h
+           windist.bat
+           wininstlogo.bmp
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/wcslib-4.24/C/cel.c
+           src/wcslib-4.24/C/cel.h
+           src/wcslib-4.24/C/fitshdr.h
+           src/wcslib-4.24/C/fitshdr.l
+           src/wcslib-4.24/C/getwcstab.c
+           src/wcslib-4.24/C/getwcstab.h
+           src/wcslib-4.24/C/lin.c
+           src/wcslib-4.24/C/lin.h
+           src/wcslib-4.24/C/log.c
+           src/wcslib-4.24/C/log.h
+           src/wcslib-4.24/C/prj.c
+           src/wcslib-4.24/C/prj.h
+           src/wcslib-4.24/C/spc.c
+           src/wcslib-4.24/C/spc.h
+           src/wcslib-4.24/C/sph.c
+           src/wcslib-4.24/C/sph.h
+           src/wcslib-4.24/C/spx.c
+           src/wcslib-4.24/C/spx.h
+           src/wcslib-4.24/C/tab.c
+           src/wcslib-4.24/C/tab.h
+           src/wcslib-4.24/C/test/bth.keyrec
+           src/wcslib-4.24/C/test/pih.keyrec
+           src/wcslib-4.24/C/test/tbth1.c
+           src/wcslib-4.24/C/test/tcel1.c
+           src/wcslib-4.24/C/test/tcel2.c
+           src/wcslib-4.24/C/test/tfitshdr.c
+           src/wcslib-4.24/C/test/tlin.c
+           src/wcslib-4.24/C/test/tlog.c
+           src/wcslib-4.24/C/test/tofits.c
+           src/wcslib-4.24/C/test/tpih1.c
+           src/wcslib-4.24/C/test/tpih2.c
+           src/wcslib-4.24/C/test/tprj1.c
+           src/wcslib-4.24/C/test/tprj2.c
+           src/wcslib-4.24/C/test/tspc.c
+           src/wcslib-4.24/C/test/tspcaips.c
+           src/wcslib-4.24/C/test/tspcspxe.c
+           src/wcslib-4.24/C/test/tspctrne.c
+           src/wcslib-4.24/C/test/tsph.c
+           src/wcslib-4.24/C/test/tsphdpa.c
+           src/wcslib-4.24/C/test/tspx.c
+           src/wcslib-4.24/C/test/ttab1.c
+           src/wcslib-4.24/C/test/ttab2.c
+           src/wcslib-4.24/C/test/ttab3.c
+           src/wcslib-4.24/C/test/tunits.c
+           src/wcslib-4.24/C/test/twcs.c
+           src/wcslib-4.24/C/test/twcs_locale.c
+           src/wcslib-4.24/C/test/twcscompare.c
+           src/wcslib-4.24/C/test/twcsfix.c
+           src/wcslib-4.24/C/test/twcshdr.c
+           src/wcslib-4.24/C/test/twcsmix.c
+           src/wcslib-4.24/C/test/twcssub.c
+           src/wcslib-4.24/C/test/twcstab.c
+           src/wcslib-4.24/C/test/wcstab.keyrec
+           src/wcslib-4.24/C/wcs.c
+           src/wcslib-4.24/C/wcs.h
+           src/wcslib-4.24/C/wcsbth.l
+           src/wcslib-4.24/C/wcserr.c
+           src/wcslib-4.24/C/wcserr.h
+           src/wcslib-4.24/C/wcsfix.c
+           src/wcslib-4.24/C/wcsfix.h
+           src/wcslib-4.24/C/wcshdr.c
+           src/wcslib-4.24/C/wcshdr.h
+           src/wcslib-4.24/C/wcslib.h
+           src/wcslib-4.24/C/wcsmath.h
+           src/wcslib-4.24/C/wcspih.l
+           src/wcslib-4.24/C/wcsprintf.c
+           src/wcslib-4.24/C/wcsprintf.h
+           src/wcslib-4.24/C/wcstrig.c
+           src/wcslib-4.24/C/wcstrig.h
+           src/wcslib-4.24/C/wcsulex.l
+           src/wcslib-4.24/C/wcsunits.c
+           src/wcslib-4.24/C/wcsunits.h
+           src/wcslib-4.24/C/wcsutil.c
+           src/wcslib-4.24/C/wcsutil.h
+           src/wcslib-4.24/C/wcsutrn.l
+           src/wcslib-4.24/Fortran/cel_f.c
+           src/wcslib-4.24/Fortran/fitshdr_f.c
+           src/wcslib-4.24/Fortran/getwcstab_f.c
+           src/wcslib-4.24/Fortran/lin_f.c
+           src/wcslib-4.24/Fortran/log_f.c
+           src/wcslib-4.24/Fortran/prj_f.c
+           src/wcslib-4.24/Fortran/spc_f.c
+           src/wcslib-4.24/Fortran/sph_f.c
+           src/wcslib-4.24/Fortran/spx_f.c
+           src/wcslib-4.24/Fortran/tab_f.c
+           src/wcslib-4.24/Fortran/wcs_f.c
+           src/wcslib-4.24/Fortran/wcserr_f.c
+           src/wcslib-4.24/Fortran/wcsfix_f.c
+           src/wcslib-4.24/Fortran/wcshdr_f.c
+           src/wcslib-4.24/Fortran/wcsunits_f.c
+           src/wcslib-4.24/README
+           src/wcslib-4.24/doxygen/doxextr.l
+           src/wcslib-4.24/utils/HPXcvt.c
+           src/wcslib-4.24/utils/fitshdr.c
+           src/wcslib-4.24/utils/wcsgrid.c
+           src/wcslib-4.24/utils/wcsware.c
+Copyright: 1995-2014 Mark Calabretta
+License:   LGPL-3.0+
+ This file is part of WCSLIB.
+ .
+ WCSLIB is free software: you can redistribute it and/or modify it under
+ the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ .
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     kapteyn/_ni_support.py
+           kapteyn/filters.py
+           kapteyn/interpolation.py
+           src/ndimg/nd_image.c
+           src/ndimg/nd_image.h
+           src/ndimg/ni_filters.c
+           src/ndimg/ni_filters.h
+           src/ndimg/ni_fourier.c
+           src/ndimg/ni_fourier.h
+           src/ndimg/ni_interpolation.c
+           src/ndimg/ni_interpolation.h
+           src/ndimg/ni_measure.c
+           src/ndimg/ni_measure.h
+           src/ndimg/ni_morphology.c
+           src/ndimg/ni_morphology.h
+           src/ndimg/ni_support.c
+           src/ndimg/ni_support.h
+Copyright: 2003-2005 Peter J. Verveer
+License:   BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above
+ copyright notice, this list of conditions and the following
+ disclaimer in the documentation and/or other materials provided
+ with the distribution.
+ .
+ 3. The name of the author may not be used to endorse or promote
+ products derived from this software without specific prior
+ written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS
+ OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+ DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+Files:     src/wcslib-4.24/pgsbox/cpgsbox.c
+           src/wcslib-4.24/pgsbox/cpgsbox.h
+           src/wcslib-4.24/pgsbox/cpgtest.c
+           src/wcslib-4.24/pgsbox/pgwcsl.c
+           src/wcslib-4.24/pgsbox/pgwcsl.h
+Copyright: 1997-2014 Mark Calabretta
+License:   LGPL-3.0+
+ This file is part of PGSBOX.
+ .
+ PGSBOX is free software: you can redistribute it and/or modify it under the
+ terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation, either version 3 of the License, or (at your option)
+ any later version.
+ .
+ PGSBOX is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with PGSBOX.  If not, see http://www.gnu.org/licenses.
+ .
+ Direct correspondence concerning PGSBOX to mark@calabretta.id.au
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     kapteyn/celestial.py
+           kapteyn/positions.py
+           kapteyn/tabarray.py
+Copyright: University of Groningen Kapteyn Astronomical Institute Groningen, The Netherlands
+           University of Groningen Kapteyn Astronomical Institute Groningen, The Netherlands E: gipsy@astro.rug.nl
+License:   __NO_LICENSE__
+
+Files:     WCSLIB-LICENSE.txt
+           src/wcslib-4.24/doxygen/mainpage.dox
+Copyright: 1995-2014 Mark Calabretta
+License:   LGPL-3.0+
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ terms of the GNU Lesser General Public License as published by the Free
+ Software Foundation, either version 3 of the License, or (at your option)
+ any later version.
+ .
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ .
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/wcslib-4.24/config/install-sh
+Copyright: 1994 X Consortium
+License:   MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+ .
+ FSF changes to this file are in the public domain.
+ .
+ Calling this script install-sh is preferred over install.sh, to prevent
+ `make' implicit rules from creating a file called install from it
+ when there is no Makefile.
+ .
+ This script is compatible with the BSD install script, but was written
+ from scratch.  It can only install one file at a time, a restriction
+ shared with many OS's install programs.
+ .
+ set DOITPROG to echo to test this script
+ .
+ Don't use :- since 4.3BSD and earlier shells don't like it.
+
+Files:     src/wcslib-4.24/configure
+Copyright: 1992-2012 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+Files:     src/wcslib-4.24/COPYING.LESSER
+Copyright: 2007 Free Software Foundation, Inc.
+License:   __HEADER___
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ .
+ This version of the GNU Lesser General Public License incorporates
+ the terms and conditions of version 3 of the GNU General Public
+ License, supplemented by the additional permissions listed below.
+ .
+ 0. Additional Definitions.
+ .
+ As used herein, "this License" refers to version 3 of the GNU Lesser
+ General Public License, and the "GNU GPL" refers to version 3 of the GNU
+ General Public License.
+ .
+ "The Library" refers to a covered work governed by this License,
+ other than an Application or a Combined Work as defined below.
+ .
+ An "Application" is any work that makes use of an interface provided
+ by the Library, but which is not otherwise based on the Library.
+ Defining a subclass of a class defined by the Library is deemed a mode
+ of using an interface provided by the Library.
+ .
+ A "Combined Work" is a work produced by combining or linking an
+ Application with the Library.  The particular version of the Library
+ with which the Combined Work was made is also called the "Linked
+ Version".
+ .
+ The "Minimal Corresponding Source" for a Combined Work means the
+ Corresponding Source for the Combined Work, excluding any source code
+ for portions of the Combined Work that, considered in isolation, are
+ based on the Application, and not on the Linked Version.
+ .
+ The "Corresponding Application Code" for a Combined Work means the
+ object code and/or source code for the Application, including any data
+ and utility programs needed for reproducing the Combined Work from the
+ Application, but excluding the System Libraries of the Combined Work.
+ .
+ 1. Exception to Section 3 of the GNU GPL.
+ .
+ You may convey a covered work under sections 3 and 4 of this License
+ without being bound by section 3 of the GNU GPL.
+ .
+ 2. Conveying Modified Versions.
+ .
+ If you modify a copy of the Library, and, in your modifications, a
+ facility refers to a function or data to be supplied by an Application
+ that uses the facility (other than as an argument passed when the
+ facility is invoked), then you may convey a copy of the modified
+ version:
+ .
+ a) under this License, provided that you make a good faith effort to
+ ensure that, in the event an Application does not supply the
+ function or data, the facility still operates, and performs
+ whatever part of its purpose remains meaningful, or
+ .
+ b) under the GNU GPL, with none of the additional permissions of
+ this License applicable to that copy.
+ .
+ 3. Object Code Incorporating Material from Library Header Files.
+ .
+ The object code form of an Application may incorporate material from
+ a header file that is part of the Library.  You may convey such object
+ code under terms of your choice, provided that, if the incorporated
+ material is not limited to numerical parameters, data structure
+ layouts and accessors, or small macros, inline functions and templates
+ (ten or fewer lines in length), you do both of the following:
+ .
+ a) Give prominent notice with each copy of the object code that the
+ Library is used in it and that the Library and its use are
+ covered by this License.
+ .
+ b) Accompany the object code with a copy of the GNU GPL and this license
+ document.
+ .
+ 4. Combined Works.
+ .
+ You may convey a Combined Work under terms of your choice that,
+ taken together, effectively do not restrict modification of the
+ portions of the Library contained in the Combined Work and reverse
+ engineering for debugging such modifications, if you also do each of
+ the following:
+ .
+ a) Give prominent notice with each copy of the Combined Work that
+ the Library is used in it and that the Library and its use are
+ covered by this License.
+ .
+ b) Accompany the Combined Work with a copy of the GNU GPL and this license
+ document.
+ .
+ c) For a Combined Work that displays copyright notices during
+ execution, include the copyright notice for the Library among
+ these notices, as well as a reference directing the user to the
+ copies of the GNU GPL and this license document.
+ .
+ d) Do one of the following:
+ .
+ 0) Convey the Minimal Corresponding Source under the terms of this
+ License, and the Corresponding Application Code in a form
+ suitable for, and under terms that permit, the user to
+ recombine or relink the Application with a modified version of
+ the Linked Version to produce a modified Combined Work, in the
+ manner specified by section 6 of the GNU GPL for conveying
+ Corresponding Source.
+ .
+ 1) Use a suitable shared library mechanism for linking with the
+ Library.  A suitable mechanism is one that (a) uses at run time
+ a copy of the Library already present on the user's computer
+ system, and (b) will operate properly with a modified version
+ of the Library that is interface-compatible with the Linked
+ Version.
+ .
+ e) Provide Installation Information, but only if you would otherwise
+ be required to provide such information under section 6 of the
+ GNU GPL, and only to the extent that such information is
+ necessary to install and execute a modified version of the
+ Combined Work produced by recombining or relinking the
+ Application with a modified version of the Linked Version. (If
+ you use option 4d0, the Installation Information must accompany
+ the Minimal Corresponding Source and Corresponding Application
+ Code. If you use option 4d1, you must provide the Installation
+ Information in the manner specified by section 6 of the GNU GPL
+ for conveying Corresponding Source.)
+ .
+ 5. Combined Libraries.
+ .
+ You may place library facilities that are a work based on the
+ Library side by side in a single library together with other library
+ facilities that are not Applications and are not covered by this
+ License, and convey such a combined library under terms of your
+ choice, if you do both of the following:
+ .
+ a) Accompany the combined library with a copy of the same work based
+ on the Library, uncombined with any other library facilities,
+ conveyed under the terms of this License.
+ .
+ b) Give prominent notice with the combined library that part of it
+ is a work based on the Library, and explaining where to find the
+ accompanying uncombined form of the same work.
+ .
+ 6. Revised Versions of the GNU Lesser General Public License.
+ .
+ The Free Software Foundation may publish revised and/or new versions
+ of the GNU Lesser General Public License from time to time. Such new
+ versions will be similar in spirit to the present version, but may
+ differ in detail to address new problems or concerns.
+ .
+ Each version is given a distinguishing version number. If the
+ Library as you received it specifies that a certain numbered version
+ of the GNU Lesser General Public License "or any later version"
+ applies to it, you have the option of following the terms and
+ conditions either of that published version or of any later version
+ published by the Free Software Foundation. If the Library as you
+ received it does not specify a version number of the GNU Lesser
+ General Public License, you may choose any version of the GNU Lesser
+ General Public License ever published by the Free Software Foundation.
+ .
+ If the Library as you received it specifies that a proxy can decide
+ whether future versions of the GNU Lesser General Public License shall
+ apply, that proxy's public statement of acceptance of any version is
+ permanent authorization for you to choose that version for the
+ Library.
+
+Files:     src/wcslib-4.24/html/jquery.js
+Copyright: 2011 John Resig Dual licensed under the MIT or GPL Version 2 licenses. http://jquery.org/license
+License:   __UNKNOWN__
+ Includes Sizzle.js
+ http://sizzlejs.com/
+ Copyright 2011, The Dojo Foundation
+ Released under the MIT, BSD, and GPL Licenses.
+ .
+ Date: Mon Nov 21 21:11:03 2011 -0500
+
+Files:     src/wcslib-4.24/C/flexed/wcsulex.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(6866lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(6867lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(6868lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(6869lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(6870lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(6871lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(6872lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(6873lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(6874lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(6875lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(6876lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(6877lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(6878lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(6879lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(6880lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(6881lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(6882lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(6883lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(6884lines) truncating at:   $Id: wcsulex.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+ __MANY_TOTAL_LINES__(6885lines) truncating at: *===============================================================
+
+Files:     src/wcslib-4.24/doxygen/doxextr.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(2388lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(2389lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(2390lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(2391lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(2392lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(2393lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(2394lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(2395lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(2396lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(2397lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(2398lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(2399lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(2400lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(2401lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(2402lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(2403lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(2404lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(2405lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(2406lines) truncating at:   $Id: doxextr.l,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+ __MANY_TOTAL_LINES__(2407lines) truncating at: *===============================================================
+
+Files:     kapteyn/shapes.py
+Copyright: University of Groningen Kapteyn Astronomical Institute Groningen, The Netherlands E: gipsy@astro.rug.nl
+License:   __UNKNOWN__
+ Sep 07, 3013  Adapted for Maatplotlib 1.3
+ VERSION: 1.1.1
+
+Files:     LICENSE.txt
+Copyright: 2010-2015 Kapteyn Astronomical Institute, University of Groningen.
+License:   __UNKNOWN__
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+ * Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ * Redistributions in binary form must reproduce the above
+ copyright notice, this list of conditions and the following
+ disclaimer in the documentation and/or other materials provided
+ with the distribution.
+ .
+ * Neither the name of the Kapteyn Astronomical Institute nor the names
+ of its contributors may be used to endorse or promote products derived
+ from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files:     src/wcslib-4.24/C/flexed/wcsutrn.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(3988lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(3989lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(3990lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(3991lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(3992lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(3993lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(3994lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(3995lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(3996lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(3997lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(3998lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(3999lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(4000lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(4001lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(4002lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(4003lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(4004lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(4005lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(4006lines) truncating at:   $Id: wcsutrn.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+ __MANY_TOTAL_LINES__(4007lines) truncating at: *===============================================================
+
+Files:     src/wcslib-4.24/C/flexed/wcspih.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(8159lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(8160lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(8161lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(8162lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(8163lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(8164lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(8165lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(8166lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(8167lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(8168lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(8169lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(8170lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(8171lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(8172lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(8173lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(8174lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(8175lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(8176lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(8177lines) truncating at:   $Id: wcspih.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+ __MANY_TOTAL_LINES__(8178lines) truncating at: *===============================================================
+
+Files:     kapteyn/rulers.py
+Copyright: University of Groningen Kapteyn Astronomical Institute Groningen, The Netherlands E: gipsy@astro.rug.nl
+License:   __UNKNOWN__
+ VERSION: 1.0
+
+Files:     PKG-INFO
+Copyright: __NO_COPYRIGHT__ in: PKG-INFO
+License:   __UNKNOWN__
+ Description: The Kapteyn Package is a collection of Python modules
+ and applications developed by the computer group of the Kapteyn
+ Astronomical Institute, University of Groningen, The Netherlands.  The
+ purpose of the package is to provide tools for the development of
+ astronomical applications with Python.
+ .
+ The package is suitable for both inexperienced and experienced users and
+ developers and documentation is provided for both groups.  The
+ documentation also provides in-depth chapters about celestial
+ transformations, spectral translations and non-linear least squares fitting.
+ .
+ The package's most important features:
+ .
+ * The handling of spatial and spectral coordinates, WCS projections
+ and transformations between different sky systems.  Spectral
+ translations (e.g., between frequencies and velocities) are supported
+ and also mixed coordinates.  (Modules wcs and celestial, Module wcs
+ uses Mark Calabretta's WCSLIB which is distributed with the package.)
+ .
+ * Versatile tools for writing small and dedicated applications for
+ the inspection of FITS headers, the extraction and display of (FITS)
+ data, interactive inspection of this data (color editing) and for the
+ creation of plots with world coordinate information.  (Module maputils)
+ As one example, a gallery of all-sky plots is provided.
+ .
+ * A class for the efficient reading, writing and manipulating simple
+ table-like structures in text files.  (Module tabarray)
+ .
+ * Utilities for use with matplotlib such as obtaining coordinate
+ information from plots, interactively modifiable colormaps and timer
+ events (module mplutil); tools for parsing and interpreting coordinate
+ information entered by the user (module positions).
+ .
+ * A function to search for gaussian components in a profile (module
+ profiles) and a class for non-linear least squares curve fitting
+ (module kmpfit)
+ Platform: Linux
+ Platform: Mac OSX
+ Platform: Windows
+ Classifier: Development Status :: 5 - Production/Stable
+ Classifier: Programming Language :: Python
+ Classifier: Programming Language :: Cython
+ Classifier: Programming Language :: C
+ Classifier: Intended Audience :: Science/Research
+ Classifier: Topic :: Scientific/Engineering :: Astronomy
+ Classifier: Topic :: Scientific/Engineering :: Visualization
+ Classifier: Topic :: Scientific/Engineering :: Mathematics
+ Classifier: License :: OSI Approved :: BSD License
+ Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+ Classifier: Operating System :: POSIX :: Linux
+ Classifier: Operating System :: MacOS :: MacOS X
+ Classifier: Operating System :: Microsoft :: Windows
+
+Files:     src/wcslib-4.24/C/flexed/wcsbth.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(16675lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(16676lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(16677lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(16678lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(16679lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(16680lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(16681lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(16682lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(16683lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(16684lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(16685lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(16686lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(16687lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(16688lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(16689lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(16690lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(16691lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(16692lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(16693lines) truncating at:   $Id: wcsbth.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+ __MANY_TOTAL_LINES__(16694lines) truncating at: *===============================================================
+
+Files:     src/gauestd.c
+Copyright: 1999 Kapteyn Laboratorium Groningen
+License:   __UNKNOWN__
+ #>            gauestd.dc2
+ .
+ Function:     GAUESTD
+ .
+ Purpose:      Searches for gaussian components in a profile.
+ .
+ Category:     MATH
+ .
+ File:         gauestd.c
+ .
+ Use:          INTEGER GAUESTD( Y ,      Input     DOUBLE PRECISION ARRAY
+ WORK ,   Output    DOUBLE PRECISION ARRAY
+ N ,      Input     INTEGER
+ P ,      Output    DOUBLE PRECISION ARRAY
+ NP ,     Input     INTEGER
+ RMS ,    Input     DOUBLE PRECISION
+ CUTAMP , Input     DOUBLE PRECISION
+ CUTSIG , Input     DOUBLE PRECISION
+ Q,       Input     INTEGER
+ SMODE )  Input     INTEGER
+ .
+ GAUESTD       Returns number of gaussians found.
+ Y             Data points on profile (dimension N).
+ WORK          Work array (dimension N).
+ N             Number of points in profile (dimension
+ of Y and WORK).
+ P             Contains the estimated gaussian parameters
+ on output. The dimension of P should be at
+ least 3*NP. Each gaussian takes three elements
+ of P to store the parameters. First the
+ amplitude, then the centre and third the
+ dispersion. The dispersion is in units of
+ pixels, to get the dispersion in physical
+ units multiply by the grid separation.
+ The centre is in units of pixel offset
+ (relative to first pixel in Y).
+ NP            Maximum number of gauss components which can be
+ stored in P.
+ RMS           The  r.m.s. noise level of the profile.
+ CUTAMP        Critical amplitude of gaussian. Gaussians
+ below this amplitude will be discarded.
+ CUTSIG        Critical dispersion of gaussian.
+ Q             Smoothing parameter used in calculating the
+ second derivative of the profile. Q must be
+ greater than zero.
+ SMODE         Sorting mode, the order in which the gauss
+ components are delivered:
+ 0 - decreasing amplitude
+ 1 - decreasing dispersion
+ 2 - decreasing flux
+ .
+ Description:  Double precision version of gauest, using the entire
+ profile as signal region.  The second derivative of
+ the profile in the signal region is calculated by fitting
+ a second degree polynomal. The smoothing parameter Q
+
+Files:     src/wcslib-4.24/C/flexed/fitshdr.c
+Copyright: 1995-2014 Mark Calabretta
+License:   __UNKNOWN__
+ This file is part of WCSLIB.
+ __MANY_TOTAL_LINES__(10089lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(10090lines) truncating at:   WCSLIB is free software: you can redistribute it and/or modify
+ WCSLIB is free software: you can redistribute it and/or modify it under the
+ __MANY_TOTAL_LINES__(10091lines) truncating at:   terms of the GNU Lesser General Public License as published by
+ terms of the GNU Lesser General Public License as published by the Free
+ __MANY_TOTAL_LINES__(10092lines) truncating at:   Software Foundation, either version 3 of the License, or (at y
+ Software Foundation, either version 3 of the License, or (at your option)
+ __MANY_TOTAL_LINES__(10093lines) truncating at:   any later version.
+ any later version.
+ __MANY_TOTAL_LINES__(10094lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(10095lines) truncating at:   WCSLIB is distributed in the hope that it will be useful, but
+ WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+ __MANY_TOTAL_LINES__(10096lines) truncating at:   WARRANTY; without even the implied warranty of MERCHANTABILITY
+ WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ __MANY_TOTAL_LINES__(10097lines) truncating at:   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public L
+ FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+ __MANY_TOTAL_LINES__(10098lines) truncating at:   more details.
+ more details.
+ __MANY_TOTAL_LINES__(10099lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(10100lines) truncating at:   You should have received a copy of the GNU Lesser General Publ
+ You should have received a copy of the GNU Lesser General Public License
+ __MANY_TOTAL_LINES__(10101lines) truncating at:   along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+ __MANY_TOTAL_LINES__(10102lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(10103lines) truncating at:   Direct correspondence concerning WCSLIB to mark@calabretta.id.
+ Direct correspondence concerning WCSLIB to mark@calabretta.id.au
+ __MANY_TOTAL_LINES__(10104lines) truncating at:
+ .
+ __MANY_TOTAL_LINES__(10105lines) truncating at:   Author: Mark Calabretta, Australia Telescope National Facility
+ __MANY_TOTAL_LINES__(10106lines) truncating at:   http://www.atnf.csiro.au/people/Mark.Calabretta
+ __MANY_TOTAL_LINES__(10107lines) truncating at:   $Id: fitshdr.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+ __MANY_TOTAL_LINES__(10108lines) truncating at: *===============================================================
+
+Files:     SciPy-LICENSE.txt
+Copyright: 2001-2002 Enthought, Inc.
+           2003-2009 SciPy Developers.
+License:   BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ a. Redistributions of source code must retain the above copyright notice,
+ this list of conditions and the following disclaimer.
+ b. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ c. Neither the name of the Enthought nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+ DAMAGE.
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+Files:     src/wcslib-4.24/config/elisp-comp
+Copyright: 1995-2003 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ This script byte-compiles all `.el' files which are part of its
+ arguments, using GNU Emacs, and put the resulting `.elc' files into
+ the current directory, so disregarding the original directories used
+ in `.el' arguments.
+ .
+ This script manages in such a way that all Emacs LISP files to
+ be compiled are made visible between themselves, in the event
+ they require or load-library one another.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/wcslib-4.24/config/config.guess
+Copyright: 1992-2011 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ Originally written by Per Bothner.  Please send patches (context
+ diff format) to <config-patches@gnu.org> and include a ChangeLog
+ entry.
+ .
+ This script attempts to guess a canonical system name similar to
+ config.sub.  If it succeeds, it prints the system name on stdout, and
+ exits with 0.  Otherwise, it exits with 1.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/wcslib-4.24/config/config.sub
+Copyright: 1992-2011 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This file is (in principle) common to ALL GNU software.
+ The presence of a machine in this file suggests that SOME GNU software
+ can handle that machine.  It does not imply ALL GNU software can.
+ .
+ This file is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street - Fifth Floor, Boston, MA
+ 02110-1301, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/wcslib-4.24/config/missing
+Copyright: 1996-2003 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+ 02111-1307, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     src/wcslib-4.24/config/mdate-sh
+Copyright: 1995-2003 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software Foundation,
+ Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ Prevent date giving response in another language.
+ .
+ The FSF address in the above text is the old one.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         src/wcslib-4.24/html/functions_vars_e.html
+#         src/wcslib-4.24/html/globals_eval.html
+#         src/wcslib-4.24/html/fitshdr_8h.html
+#         src/wcslib-4.24/html/functions_vars_l.html
+#         src/wcslib-4.24/html/wcserr_8h_source.html
+#         src/wcslib-4.24/html/wcsprintf_8h_source.html
+#         src/wcslib-4.24/html/structtabprm.html
+#         src/wcslib-4.24/html/fortran.html
+#         src/wcslib-4.24/html/functions_s.html
+#         src/wcslib-4.24/html/globals_defs.html
+#         src/wcslib-4.24/html/globals_type.html
+#         src/wcslib-4.24/html/globals_i.html
+#         src/wcslib-4.24/html/globals_e.html
+#         src/wcslib-4.24/html/structwtbarr.html
+#         src/wcslib-4.24/html/functions_vars_n.html
+#         src/wcslib-4.24/html/globals_func_w.html
+#         src/wcslib-4.24/html/functions_vars_z.html
+#         src/wcslib-4.24/html/functions_vars_x.html
+#         src/wcslib-4.24/html/functions_vars.html
+#         src/wcslib-4.24/html/globals_func_c.html
+#         src/wcslib-4.24/html/spc_8h.html
+#         src/wcslib-4.24/html/software.html
+#         src/wcslib-4.24/html/functions_g.html
+#         src/wcslib-4.24/html/globals_t.html
+#         src/wcslib-4.24/html/wcstrig_8h_source.html
+#         src/wcslib-4.24/html/globals_n.html
+#         src/wcslib-4.24/html/globals_func_d.html
+#         src/wcslib-4.24/html/globals_p.html
+#         src/wcslib-4.24/html/pgsbox.html
+#         src/wcslib-4.24/html/wcsutil_8h_source.html
+#         src/wcslib-4.24/html/vector.html
+#         src/wcslib-4.24/html/spx_8h.html
+#         src/wcslib-4.24/html/structpscard.html
+#         src/wcslib-4.24/html/functions_k.html
+#         src/wcslib-4.24/html/functions_vars_f.html
+#         src/wcslib-4.24/html/tab_8h.html
+#         src/wcslib-4.24/html/globals_enum.html
+#         src/wcslib-4.24/html/dir_af99bb3c152a306abd27951285ad1127.html
+#         src/wcslib-4.24/html/globals_f.html
+#         src/wcslib-4.24/html/globals_l.html
+#         src/wcslib-4.24/html/fitshdr_8h_source.html
+#         src/wcslib-4.24/html/pages.html
+#         src/wcslib-4.24/html/functions.html
+#         src/wcslib-4.24/html/log_8h.html
+#         src/wcslib-4.24/html/functions_vars_g.html
+#         src/wcslib-4.24/html/functions_f.html
+#         src/wcslib-4.24/html/functions_vars_b.html
+#         src/wcslib-4.24/html/functions_m.html
+#         src/wcslib-4.24/html/structpvcard.html
+#         src/wcslib-4.24/html/lin_8h_source.html
+#         src/wcslib-4.24/html/globals_func_u.html
+#         src/wcslib-4.24/html/getwcstab_8h_source.html
+#         src/wcslib-4.24/html/globals_func_l.html
+#         src/wcslib-4.24/html/wcshdr_8h.html
+#         src/wcslib-4.24/html/functions_r.html
+#         src/wcslib-4.24/html/functions_vars_o.html
+#         src/wcslib-4.24/html/functions_b.html
+#         src/wcslib-4.24/html/sph_8h.html
+#         src/wcslib-4.24/html/wcsunits_8h.html
+#         src/wcslib-4.24/html/globals_func_p.html
+#         src/wcslib-4.24/html/functions_vars_d.html
+#         src/wcslib-4.24/html/tab_8h_source.html
+#         src/wcslib-4.24/html/functions_vars_c.html
+#         src/wcslib-4.24/html/globals_func_e.html
+#         src/wcslib-4.24/html/wcserr_8h.html
+#         src/wcslib-4.24/html/functions_vars_p.html
+#         src/wcslib-4.24/html/structlinprm.html
+#         src/wcslib-4.24/html/globals_vars.html
+#         src/wcslib-4.24/html/functions_vars_k.html
+#         src/wcslib-4.24/html/globals_v.html
+#         src/wcslib-4.24/html/deprecated.html
+#         src/wcslib-4.24/html/structfitskey.html
+#         src/wcslib-4.24/html/index.html
+#         src/wcslib-4.24/html/functions_p.html
+#         src/wcslib-4.24/html/globals_func_h.html
+#         src/wcslib-4.24/html/wcs_8h_source.html
+#         src/wcslib-4.24/html/functions_vars_v.html
+#         src/wcslib-4.24/html/memory.html
+#         src/wcslib-4.24/html/functions_o.html
+#         src/wcslib-4.24/html/globals_m.html
+#         src/wcslib-4.24/html/wcsfix_8h.html
+#         src/wcslib-4.24/html/globals_func_x.html
+#         src/wcslib-4.24/html/functions_t.html
+#         src/wcslib-4.24/html/functions_y.html
+#         src/wcslib-4.24/html/functions_vars_m.html
+#         src/wcslib-4.24/html/diagnostics.html
+#         src/wcslib-4.24/html/wcstrig_8h.html
+#         src/wcslib-4.24/html/wcsunits_8h_source.html
+#         src/wcslib-4.24/html/intro.html
+#         src/wcslib-4.24/html/globals_c.html
+#         src/wcslib-4.24/html/cel_8h_source.html
+#         src/wcslib-4.24/html/wcsfix_8h_source.html
+#         src/wcslib-4.24/html/structspcprm.html
+#         src/wcslib-4.24/html/globals_func_m.html
+#         src/wcslib-4.24/html/functions_x.html
+#         src/wcslib-4.24/html/cel_8h.html
+#         src/wcslib-4.24/html/functions_e.html
+#         src/wcslib-4.24/html/globals_k.html
+#         src/wcslib-4.24/html/wcsmath_8h.html
+#         src/wcslib-4.24/html/testing.html
+#         src/wcslib-4.24/html/globals_func_s.html
+#         src/wcslib-4.24/html/prj_8h_source.html
+#         src/wcslib-4.24/html/functions_v.html
+#         src/wcslib-4.24/html/globals_func_q.html
+#         src/wcslib-4.24/html/classes.html
+#         src/wcslib-4.24/html/functions_i.html
+#         src/wcslib-4.24/html/functions_d.html
+#         src/wcslib-4.24/html/structcelprm.html
+#         src/wcslib-4.24/html/globals_func.html
+#         src/wcslib-4.24/html/structwcserr.html
+#         src/wcslib-4.24/html/globals_s.html
+#         src/wcslib-4.24/html/wcslib_8h_source.html
+#         src/wcslib-4.24/html/functions_z.html
+#         src/wcslib-4.24/html/functions_vars_t.html
+#         src/wcslib-4.24/html/globals_z.html
+#         src/wcslib-4.24/html/structspxprm.html
+#         src/wcslib-4.24/html/wcsprintf_8h.html
+#         src/wcslib-4.24/html/globals_q.html
+#         src/wcslib-4.24/html/structprjprm.html
+#         src/wcslib-4.24/html/globals_w.html
+#         src/wcslib-4.24/html/prj_8h.html
+#         src/wcslib-4.24/html/threads.html
+#         src/wcslib-4.24/html/globals_func_b.html
+#         src/wcslib-4.24/html/spx_8h_source.html
+#         src/wcslib-4.24/html/functions_vars_u.html
+#         src/wcslib-4.24/html/log_8h_source.html
+#         src/wcslib-4.24/html/globals_func_z.html
+#         src/wcslib-4.24/html/wcshdr_8h_source.html
+#         src/wcslib-4.24/html/functions_u.html
+#         src/wcslib-4.24/html/globals_r.html
+#         src/wcslib-4.24/html/globals_func_v.html
+#         src/wcslib-4.24/html/globals_x.html
+#         src/wcslib-4.24/html/wcslib_8h.html
+#         src/wcslib-4.24/html/structfitskeyid.html
+#         src/wcslib-4.24/html/functions_vars_y.html
+#         src/wcslib-4.24/html/functions_vars_s.html
+#         src/wcslib-4.24/html/structs.html
+#         src/wcslib-4.24/html/globals.html
+#         src/wcslib-4.24/html/overview.html
+#         src/wcslib-4.24/html/globals_d.html
+#         src/wcslib-4.24/html/globals_h.html
+#         src/wcslib-4.24/html/functions_w.html
+#         src/wcslib-4.24/html/functions_c.html
+#         src/wcslib-4.24/html/globals_func_t.html
+#         src/wcslib-4.24/html/getwcstab_8h.html
+#         src/wcslib-4.24/html/lin_8h.html
+#         src/wcslib-4.24/html/wcs_8h.html
+#         src/wcslib-4.24/html/sph_8h_source.html
+#         src/wcslib-4.24/html/functions_vars_w.html
+#         src/wcslib-4.24/html/structwcsprm.html
+#         src/wcslib-4.24/html/functions_vars_i.html
+#         src/wcslib-4.24/html/globals_b.html
+#         src/wcslib-4.24/html/globals_func_f.html
+#         src/wcslib-4.24/html/globals_u.html
+#         src/wcslib-4.24/html/annotated.html
+#         src/wcslib-4.24/html/functions_n.html
+#         src/wcslib-4.24/html/files.html
+#         src/wcslib-4.24/html/functions_vars_r.html
+#         src/wcslib-4.24/html/functions_l.html
+#         src/wcslib-4.24/html/wcsmath_8h_source.html
+#         src/wcslib-4.24/html/wcsutil_8h.html
+#         src/wcslib-4.24/html/spc_8h_source.html
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         doc/kapteyn.pdf
+#         src/wcs.c
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE.txt
+ Copyright (c) 2010-2015, Kapteyn Astronomical Institute, University
+ of Groningen. All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ .
+     * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+ .
+     * Redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the following
+       disclaimer in the documentation and/or other materials provided
+       with the distribution.
+ .
+     * Neither the name of the Kapteyn Astronomical Institute nor the names
+       of its contributors may be used to endorse or promote products derived
+       from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

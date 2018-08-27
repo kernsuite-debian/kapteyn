@@ -1,0 +1,8 @@
+.debhelper/
+files
+*.debhelper.log
+*.postinst.debhelper
+*.prerm.debhelper
+*.substvars
+kapteyn/
+python-kapteyn/

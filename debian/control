@@ -1,0 +1,14 @@
+Source: kapteyn
+Section: python
+Priority: optional
+Maintainer: KERN packaging <packaging@kernsuite.info>
+Build-Depends: debhelper (>=9), dh-python, python-all, python-numpy
+Standards-Version: 3.9.8
+Homepage: https://www.astro.rug.nl/software/kapteyn/
+X-Python-Version: >= 2.6
+
+Package: python-kapteyn
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}
+Description: Python tools for astronomy
